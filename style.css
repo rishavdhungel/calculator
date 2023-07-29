@@ -21,14 +21,24 @@ body{
     margin: 30px auto;
     width: 90%;
     height: 120px;
-    border:1px solid black;
+    border:5px solid rgba(126, 123, 123, 0.589);
     background-color: rgb(126,140,116);
 }
+
 
 .inputField{
     width: 100%;
     height: 50%;
     border-bottom: 1px solid gray;
+}
+
+.inputdata , .outputdata{
+    font-size: 2.6rem;
+    float: right;
+}
+
+#calculate{
+    background-color: rgba(89, 15, 2, 0.379);
 }
 
 
@@ -44,7 +54,6 @@ body{
 }
 
 .keyItems{
-
     width: 100%;
     height: 100%;
     border: 1px solid black;
@@ -59,6 +68,17 @@ body{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect: horizontal offset, vertical offset, blur radius, spread radius, color (using rgba) */
 }
 
+#power{
+    background-color: rgba(143, 79, 79, 0.678);
+}
+
+#clear{
+    background-color: rgb(122, 145, 122);
+}
+
+.operators{
+    background-color: rgba(46, 75, 132, 0.426);
+}
 
 
 
